@@ -1,0 +1,1134 @@
+{
+  "source_checkpoint": "D:\\CODE\\Doing\\WHU_base\\WM\\M-SpecGene_VIT-B_seg_transform.pth",
+  "checkpoint_wrappers": [],
+  "source_metadata": {},
+  "source_pos_embed_shape": [
+    1,
+    197,
+    768
+  ],
+  "target_pos_embed_shape": [
+    1,
+    129,
+    768
+  ],
+  "target_patch_grid": [
+    16,
+    8
+  ],
+  "interpolation": "bilinear",
+  "loaded_tensor_count": 150,
+  "required_tensor_count": 150,
+  "loaded_tensor_ratio": 1.0,
+  "ignored_tensor_count": 0,
+  "ignored_tensors": [],
+  "mapped_tensors": [
+    {
+      "source": "cls_token",
+      "target": "cls_token",
+      "shape": [
+        1,
+        1,
+        768
+      ]
+    },
+    {
+      "source": "pos_embed",
+      "target": "pos_embed",
+      "shape": [
+        1,
+        129,
+        768
+      ]
+    },
+    {
+      "source": "patch_embed.projection.weight",
+      "target": "patch_embed.proj.weight",
+      "shape": [
+        768,
+        3,
+        16,
+        16
+      ]
+    },
+    {
+      "source": "patch_embed.projection.bias",
+      "target": "patch_embed.proj.bias",
+      "shape": [
+        768
+      ]
+    },
+    {
+      "source": "layers.0.ln1.weight",
+      "target": "blocks.0.norm1.weight",
+      "shape": [
+        768
+      ]
+    },
+    {
+      "source": "layers.0.ln1.bias",
+      "target": "blocks.0.norm1.bias",
+      "shape": [
+        768
+      ]
+    },
+    {
+      "source": "layers.0.attn.qkv.weight",
+      "target": "blocks.0.attn.qkv.weight",
+      "shape": [
+        2304,
+        768
+      ]
+    },
+    {
+      "source": "layers.0.attn.qkv.bias",
+      "target": "blocks.0.attn.qkv.bias",
+      "shape": [
+        2304
+      ]
+    },
+    {
+      "source": "layers.0.attn.proj.weight",
+      "target": "blocks.0.attn.proj.weight",
+      "shape": [
+        768,
+        768
+      ]
+    },
+    {
+      "source": "layers.0.attn.proj.bias",
+      "target": "blocks.0.attn.proj.bias",
+      "shape": [
+        768
+      ]
+    },
+    {
+      "source": "layers.0.ln2.weight",
+      "target": "blocks.0.norm2.weight",
+      "shape": [
+        768
+      ]
+    },
+    {
+      "source": "layers.0.ln2.bias",
+      "target": "blocks.0.norm2.bias",
+      "shape": [
+        768
+      ]
+    },
+    {
+      "source": "layers.0.ffn.layers.0.0.weight",
+      "target": "blocks.0.mlp.fc1.weight",
+      "shape": [
+        3072,
+        768
+      ]
+    },
+    {
+      "source": "layers.0.ffn.layers.0.0.bias",
+      "target": "blocks.0.mlp.fc1.bias",
+      "shape": [
+        3072
+      ]
+    },
+    {
+      "source": "layers.0.ffn.layers.1.weight",
+      "target": "blocks.0.mlp.fc2.weight",
+      "shape": [
+        768,
+        3072
+      ]
+    },
+    {
+      "source": "layers.0.ffn.layers.1.bias",
+      "target": "blocks.0.mlp.fc2.bias",
+      "shape": [
+        768
+      ]
+    },
+    {
+      "source": "layers.1.ln1.weight",
+      "target": "blocks.1.norm1.weight",
+      "shape": [
+        768
+      ]
+    },
+    {
+      "source": "layers.1.ln1.bias",
+      "target": "blocks.1.norm1.bias",
+      "shape": [
+        768
+      ]
+    },
+    {
+      "source": "layers.1.attn.qkv.weight",
+      "target": "blocks.1.attn.qkv.weight",
+      "shape": [
+        2304,
+        768
+      ]
+    },
+    {
+      "source": "layers.1.attn.qkv.bias",
+      "target": "blocks.1.attn.qkv.bias",
+      "shape": [
+        2304
+      ]
+    },
+    {
+      "source": "layers.1.attn.proj.weight",
+      "target": "blocks.1.attn.proj.weight",
+      "shape": [
+        768,
+        768
+      ]
+    },
+    {
+      "source": "layers.1.attn.proj.bias",
+      "target": "blocks.1.attn.proj.bias",
+      "shape": [
+        768
+      ]
+    },
+    {
+      "source": "layers.1.ln2.weight",
+      "target": "blocks.1.norm2.weight",
+      "shape": [
+        768
+      ]
+    },
+    {
+      "source": "layers.1.ln2.bias",
+      "target": "blocks.1.norm2.bias",
+      "shape": [
+        768
+      ]
+    },
+    {
+      "source": "layers.1.ffn.layers.0.0.weight",
+      "target": "blocks.1.mlp.fc1.weight",
+      "shape": [
+        3072,
+        768
+      ]
+    },
+    {
+      "source": "layers.1.ffn.layers.0.0.bias",
+      "target": "blocks.1.mlp.fc1.bias",
+      "shape": [
+        3072
+      ]
+    },
+    {
+      "source": "layers.1.ffn.layers.1.weight",
+      "target": "blocks.1.mlp.fc2.weight",
+      "shape": [
+        768,
+        3072
+      ]
+    },
+    {
+      "source": "layers.1.ffn.layers.1.bias",
+      "target": "blocks.1.mlp.fc2.bias",
+      "shape": [
+        768
+      ]
+    },
+    {
+      "source": "layers.2.ln1.weight",
+      "target": "blocks.2.norm1.weight",
+      "shape": [
+        768
+      ]
+    },
+    {
+      "source": "layers.2.ln1.bias",
+      "target": "blocks.2.norm1.bias",
+      "shape": [
+        768
+      ]
+    },
+    {
+      "source": "layers.2.attn.qkv.weight",
+      "target": "blocks.2.attn.qkv.weight",
+      "shape": [
+        2304,
+        768
+      ]
+    },
+    {
+      "source": "layers.2.attn.qkv.bias",
+      "target": "blocks.2.attn.qkv.bias",
+      "shape": [
+        2304
+      ]
+    },
+    {
+      "source": "layers.2.attn.proj.weight",
+      "target": "blocks.2.attn.proj.weight",
+      "shape": [
+        768,
+        768
+      ]
+    },
+    {
+      "source": "layers.2.attn.proj.bias",
+      "target": "blocks.2.attn.proj.bias",
+      "shape": [
+        768
+      ]
+    },
+    {
+      "source": "layers.2.ln2.weight",
+      "target": "blocks.2.norm2.weight",
+      "shape": [
+        768
+      ]
+    },
+    {
+      "source": "layers.2.ln2.bias",
+      "target": "blocks.2.norm2.bias",
+      "shape": [
+        768
+      ]
+    },
+    {
+      "source": "layers.2.ffn.layers.0.0.weight",
+      "target": "blocks.2.mlp.fc1.weight",
+      "shape": [
+        3072,
+        768
+      ]
+    },
+    {
+      "source": "layers.2.ffn.layers.0.0.bias",
+      "target": "blocks.2.mlp.fc1.bias",
+      "shape": [
+        3072
+      ]
+    },
+    {
+      "source": "layers.2.ffn.layers.1.weight",
+      "target": "blocks.2.mlp.fc2.weight",
+      "shape": [
+        768,
+        3072
+      ]
+    },
+    {
+      "source": "layers.2.ffn.layers.1.bias",
+      "target": "blocks.2.mlp.fc2.bias",
+      "shape": [
+        768
+      ]
+    },
+    {
+      "source": "layers.3.ln1.weight",
+      "target": "blocks.3.norm1.weight",
+      "shape": [
+        768
+      ]
+    },
+    {
+      "source": "layers.3.ln1.bias",
+      "target": "blocks.3.norm1.bias",
+      "shape": [
+        768
+      ]
+    },
+    {
+      "source": "layers.3.attn.qkv.weight",
+      "target": "blocks.3.attn.qkv.weight",
+      "shape": [
+        2304,
+        768
+      ]
+    },
+    {
+      "source": "layers.3.attn.qkv.bias",
+      "target": "blocks.3.attn.qkv.bias",
+      "shape": [
+        2304
+      ]
+    },
+    {
+      "source": "layers.3.attn.proj.weight",
+      "target": "blocks.3.attn.proj.weight",
+      "shape": [
+        768,
+        768
+      ]
+    },
+    {
+      "source": "layers.3.attn.proj.bias",
+      "target": "blocks.3.attn.proj.bias",
+      "shape": [
+        768
+      ]
+    },
+    {
+      "source": "layers.3.ln2.weight",
+      "target": "blocks.3.norm2.weight",
+      "shape": [
+        768
+      ]
+    },
+    {
+      "source": "layers.3.ln2.bias",
+      "target": "blocks.3.norm2.bias",
+      "shape": [
+        768
+      ]
+    },
+    {
+      "source": "layers.3.ffn.layers.0.0.weight",
+      "target": "blocks.3.mlp.fc1.weight",
+      "shape": [
+        3072,
+        768
+      ]
+    },
+    {
+      "source": "layers.3.ffn.layers.0.0.bias",
+      "target": "blocks.3.mlp.fc1.bias",
+      "shape": [
+        3072
+      ]
+    },
+    {
+      "source": "layers.3.ffn.layers.1.weight",
+      "target": "blocks.3.mlp.fc2.weight",
+      "shape": [
+        768,
+        3072
+      ]
+    },
+    {
+      "source": "layers.3.ffn.layers.1.bias",
+      "target": "blocks.3.mlp.fc2.bias",
+      "shape": [
+        768
+      ]
+    },
+    {
+      "source": "layers.4.ln1.weight",
+      "target": "blocks.4.norm1.weight",
+      "shape": [
+        768
+      ]
+    },
+    {
+      "source": "layers.4.ln1.bias",
+      "target": "blocks.4.norm1.bias",
+      "shape": [
+        768
+      ]
+    },
+    {
+      "source": "layers.4.attn.qkv.weight",
+      "target": "blocks.4.attn.qkv.weight",
+      "shape": [
+        2304,
+        768
+      ]
+    },
+    {
+      "source": "layers.4.attn.qkv.bias",
+      "target": "blocks.4.attn.qkv.bias",
+      "shape": [
+        2304
+      ]
+    },
+    {
+      "source": "layers.4.attn.proj.weight",
+      "target": "blocks.4.attn.proj.weight",
+      "shape": [
+        768,
+        768
+      ]
+    },
+    {
+      "source": "layers.4.attn.proj.bias",
+      "target": "blocks.4.attn.proj.bias",
+      "shape": [
+        768
+      ]
+    },
+    {
+      "source": "layers.4.ln2.weight",
+      "target": "blocks.4.norm2.weight",
+      "shape": [
+        768
+      ]
+    },
+    {
+      "source": "layers.4.ln2.bias",
+      "target": "blocks.4.norm2.bias",
+      "shape": [
+        768
+      ]
+    },
+    {
+      "source": "layers.4.ffn.layers.0.0.weight",
+      "target": "blocks.4.mlp.fc1.weight",
+      "shape": [
+        3072,
+        768
+      ]
+    },
+    {
+      "source": "layers.4.ffn.layers.0.0.bias",
+      "target": "blocks.4.mlp.fc1.bias",
+      "shape": [
+        3072
+      ]
+    },
+    {
+      "source": "layers.4.ffn.layers.1.weight",
+      "target": "blocks.4.mlp.fc2.weight",
+      "shape": [
+        768,
+        3072
+      ]
+    },
+    {
+      "source": "layers.4.ffn.layers.1.bias",
+      "target": "blocks.4.mlp.fc2.bias",
+      "shape": [
+        768
+      ]
+    },
+    {
+      "source": "layers.5.ln1.weight",
+      "target": "blocks.5.norm1.weight",
+      "shape": [
+        768
+      ]
+    },
+    {
+      "source": "layers.5.ln1.bias",
+      "target": "blocks.5.norm1.bias",
+      "shape": [
+        768
+      ]
+    },
+    {
+      "source": "layers.5.attn.qkv.weight",
+      "target": "blocks.5.attn.qkv.weight",
+      "shape": [
+        2304,
+        768
+      ]
+    },
+    {
+      "source": "layers.5.attn.qkv.bias",
+      "target": "blocks.5.attn.qkv.bias",
+      "shape": [
+        2304
+      ]
+    },
+    {
+      "source": "layers.5.attn.proj.weight",
+      "target": "blocks.5.attn.proj.weight",
+      "shape": [
+        768,
+        768
+      ]
+    },
+    {
+      "source": "layers.5.attn.proj.bias",
+      "target": "blocks.5.attn.proj.bias",
+      "shape": [
+        768
+      ]
+    },
+    {
+      "source": "layers.5.ln2.weight",
+      "target": "blocks.5.norm2.weight",
+      "shape": [
+        768
+      ]
+    },
+    {
+      "source": "layers.5.ln2.bias",
+      "target": "blocks.5.norm2.bias",
+      "shape": [
+        768
+      ]
+    },
+    {
+      "source": "layers.5.ffn.layers.0.0.weight",
+      "target": "blocks.5.mlp.fc1.weight",
+      "shape": [
+        3072,
+        768
+      ]
+    },
+    {
+      "source": "layers.5.ffn.layers.0.0.bias",
+      "target": "blocks.5.mlp.fc1.bias",
+      "shape": [
+        3072
+      ]
+    },
+    {
+      "source": "layers.5.ffn.layers.1.weight",
+      "target": "blocks.5.mlp.fc2.weight",
+      "shape": [
+        768,
+        3072
+      ]
+    },
+    {
+      "source": "layers.5.ffn.layers.1.bias",
+      "target": "blocks.5.mlp.fc2.bias",
+      "shape": [
+        768
+      ]
+    },
+    {
+      "source": "layers.6.ln1.weight",
+      "target": "blocks.6.norm1.weight",
+      "shape": [
+        768
+      ]
+    },
+    {
+      "source": "layers.6.ln1.bias",
+      "target": "blocks.6.norm1.bias",
+      "shape": [
+        768
+      ]
+    },
+    {
+      "source": "layers.6.attn.qkv.weight",
+      "target": "blocks.6.attn.qkv.weight",
+      "shape": [
+        2304,
+        768
+      ]
+    },
+    {
+      "source": "layers.6.attn.qkv.bias",
+      "target": "blocks.6.attn.qkv.bias",
+      "shape": [
+        2304
+      ]
+    },
+    {
+      "source": "layers.6.attn.proj.weight",
+      "target": "blocks.6.attn.proj.weight",
+      "shape": [
+        768,
+        768
+      ]
+    },
+    {
+      "source": "layers.6.attn.proj.bias",
+      "target": "blocks.6.attn.proj.bias",
+      "shape": [
+        768
+      ]
+    },
+    {
+      "source": "layers.6.ln2.weight",
+      "target": "blocks.6.norm2.weight",
+      "shape": [
+        768
+      ]
+    },
+    {
+      "source": "layers.6.ln2.bias",
+      "target": "blocks.6.norm2.bias",
+      "shape": [
+        768
+      ]
+    },
+    {
+      "source": "layers.6.ffn.layers.0.0.weight",
+      "target": "blocks.6.mlp.fc1.weight",
+      "shape": [
+        3072,
+        768
+      ]
+    },
+    {
+      "source": "layers.6.ffn.layers.0.0.bias",
+      "target": "blocks.6.mlp.fc1.bias",
+      "shape": [
+        3072
+      ]
+    },
+    {
+      "source": "layers.6.ffn.layers.1.weight",
+      "target": "blocks.6.mlp.fc2.weight",
+      "shape": [
+        768,
+        3072
+      ]
+    },
+    {
+      "source": "layers.6.ffn.layers.1.bias",
+      "target": "blocks.6.mlp.fc2.bias",
+      "shape": [
+        768
+      ]
+    },
+    {
+      "source": "layers.7.ln1.weight",
+      "target": "blocks.7.norm1.weight",
+      "shape": [
+        768
+      ]
+    },
+    {
+      "source": "layers.7.ln1.bias",
+      "target": "blocks.7.norm1.bias",
+      "shape": [
+        768
+      ]
+    },
+    {
+      "source": "layers.7.attn.qkv.weight",
+      "target": "blocks.7.attn.qkv.weight",
+      "shape": [
+        2304,
+        768
+      ]
+    },
+    {
+      "source": "layers.7.attn.qkv.bias",
+      "target": "blocks.7.attn.qkv.bias",
+      "shape": [
+        2304
+      ]
+    },
+    {
+      "source": "layers.7.attn.proj.weight",
+      "target": "blocks.7.attn.proj.weight",
+      "shape": [
+        768,
+        768
+      ]
+    },
+    {
+      "source": "layers.7.attn.proj.bias",
+      "target": "blocks.7.attn.proj.bias",
+      "shape": [
+        768
+      ]
+    },
+    {
+      "source": "layers.7.ln2.weight",
+      "target": "blocks.7.norm2.weight",
+      "shape": [
+        768
+      ]
+    },
+    {
+      "source": "layers.7.ln2.bias",
+      "target": "blocks.7.norm2.bias",
+      "shape": [
+        768
+      ]
+    },
+    {
+      "source": "layers.7.ffn.layers.0.0.weight",
+      "target": "blocks.7.mlp.fc1.weight",
+      "shape": [
+        3072,
+        768
+      ]
+    },
+    {
+      "source": "layers.7.ffn.layers.0.0.bias",
+      "target": "blocks.7.mlp.fc1.bias",
+      "shape": [
+        3072
+      ]
+    },
+    {
+      "source": "layers.7.ffn.layers.1.weight",
+      "target": "blocks.7.mlp.fc2.weight",
+      "shape": [
+        768,
+        3072
+      ]
+    },
+    {
+      "source": "layers.7.ffn.layers.1.bias",
+      "target": "blocks.7.mlp.fc2.bias",
+      "shape": [
+        768
+      ]
+    },
+    {
+      "source": "layers.8.ln1.weight",
+      "target": "blocks.8.norm1.weight",
+      "shape": [
+        768
+      ]
+    },
+    {
+      "source": "layers.8.ln1.bias",
+      "target": "blocks.8.norm1.bias",
+      "shape": [
+        768
+      ]
+    },
+    {
+      "source": "layers.8.attn.qkv.weight",
+      "target": "blocks.8.attn.qkv.weight",
+      "shape": [
+        2304,
+        768
+      ]
+    },
+    {
+      "source": "layers.8.attn.qkv.bias",
+      "target": "blocks.8.attn.qkv.bias",
+      "shape": [
+        2304
+      ]
+    },
+    {
+      "source": "layers.8.attn.proj.weight",
+      "target": "blocks.8.attn.proj.weight",
+      "shape": [
+        768,
+        768
+      ]
+    },
+    {
+      "source": "layers.8.attn.proj.bias",
+      "target": "blocks.8.attn.proj.bias",
+      "shape": [
+        768
+      ]
+    },
+    {
+      "source": "layers.8.ln2.weight",
+      "target": "blocks.8.norm2.weight",
+      "shape": [
+        768
+      ]
+    },
+    {
+      "source": "layers.8.ln2.bias",
+      "target": "blocks.8.norm2.bias",
+      "shape": [
+        768
+      ]
+    },
+    {
+      "source": "layers.8.ffn.layers.0.0.weight",
+      "target": "blocks.8.mlp.fc1.weight",
+      "shape": [
+        3072,
+        768
+      ]
+    },
+    {
+      "source": "layers.8.ffn.layers.0.0.bias",
+      "target": "blocks.8.mlp.fc1.bias",
+      "shape": [
+        3072
+      ]
+    },
+    {
+      "source": "layers.8.ffn.layers.1.weight",
+      "target": "blocks.8.mlp.fc2.weight",
+      "shape": [
+        768,
+        3072
+      ]
+    },
+    {
+      "source": "layers.8.ffn.layers.1.bias",
+      "target": "blocks.8.mlp.fc2.bias",
+      "shape": [
+        768
+      ]
+    },
+    {
+      "source": "layers.9.ln1.weight",
+      "target": "blocks.9.norm1.weight",
+      "shape": [
+        768
+      ]
+    },
+    {
+      "source": "layers.9.ln1.bias",
+      "target": "blocks.9.norm1.bias",
+      "shape": [
+        768
+      ]
+    },
+    {
+      "source": "layers.9.attn.qkv.weight",
+      "target": "blocks.9.attn.qkv.weight",
+      "shape": [
+        2304,
+        768
+      ]
+    },
+    {
+      "source": "layers.9.attn.qkv.bias",
+      "target": "blocks.9.attn.qkv.bias",
+      "shape": [
+        2304
+      ]
+    },
+    {
+      "source": "layers.9.attn.proj.weight",
+      "target": "blocks.9.attn.proj.weight",
+      "shape": [
+        768,
+        768
+      ]
+    },
+    {
+      "source": "layers.9.attn.proj.bias",
+      "target": "blocks.9.attn.proj.bias",
+      "shape": [
+        768
+      ]
+    },
+    {
+      "source": "layers.9.ln2.weight",
+      "target": "blocks.9.norm2.weight",
+      "shape": [
+        768
+      ]
+    },
+    {
+      "source": "layers.9.ln2.bias",
+      "target": "blocks.9.norm2.bias",
+      "shape": [
+        768
+      ]
+    },
+    {
+      "source": "layers.9.ffn.layers.0.0.weight",
+      "target": "blocks.9.mlp.fc1.weight",
+      "shape": [
+        3072,
+        768
+      ]
+    },
+    {
+      "source": "layers.9.ffn.layers.0.0.bias",
+      "target": "blocks.9.mlp.fc1.bias",
+      "shape": [
+        3072
+      ]
+    },
+    {
+      "source": "layers.9.ffn.layers.1.weight",
+      "target": "blocks.9.mlp.fc2.weight",
+      "shape": [
+        768,
+        3072
+      ]
+    },
+    {
+      "source": "layers.9.ffn.layers.1.bias",
+      "target": "blocks.9.mlp.fc2.bias",
+      "shape": [
+        768
+      ]
+    },
+    {
+      "source": "layers.10.ln1.weight",
+      "target": "blocks.10.norm1.weight",
+      "shape": [
+        768
+      ]
+    },
+    {
+      "source": "layers.10.ln1.bias",
+      "target": "blocks.10.norm1.bias",
+      "shape": [
+        768
+      ]
+    },
+    {
+      "source": "layers.10.attn.qkv.weight",
+      "target": "blocks.10.attn.qkv.weight",
+      "shape": [
+        2304,
+        768
+      ]
+    },
+    {
+      "source": "layers.10.attn.qkv.bias",
+      "target": "blocks.10.attn.qkv.bias",
+      "shape": [
+        2304
+      ]
+    },
+    {
+      "source": "layers.10.attn.proj.weight",
+      "target": "blocks.10.attn.proj.weight",
+      "shape": [
+        768,
+        768
+      ]
+    },
+    {
+      "source": "layers.10.attn.proj.bias",
+      "target": "blocks.10.attn.proj.bias",
+      "shape": [
+        768
+      ]
+    },
+    {
+      "source": "layers.10.ln2.weight",
+      "target": "blocks.10.norm2.weight",
+      "shape": [
+        768
+      ]
+    },
+    {
+      "source": "layers.10.ln2.bias",
+      "target": "blocks.10.norm2.bias",
+      "shape": [
+        768
+      ]
+    },
+    {
+      "source": "layers.10.ffn.layers.0.0.weight",
+      "target": "blocks.10.mlp.fc1.weight",
+      "shape": [
+        3072,
+        768
+      ]
+    },
+    {
+      "source": "layers.10.ffn.layers.0.0.bias",
+      "target": "blocks.10.mlp.fc1.bias",
+      "shape": [
+        3072
+      ]
+    },
+    {
+      "source": "layers.10.ffn.layers.1.weight",
+      "target": "blocks.10.mlp.fc2.weight",
+      "shape": [
+        768,
+        3072
+      ]
+    },
+    {
+      "source": "layers.10.ffn.layers.1.bias",
+      "target": "blocks.10.mlp.fc2.bias",
+      "shape": [
+        768
+      ]
+    },
+    {
+      "source": "layers.11.ln1.weight",
+      "target": "blocks.11.norm1.weight",
+      "shape": [
+        768
+      ]
+    },
+    {
+      "source": "layers.11.ln1.bias",
+      "target": "blocks.11.norm1.bias",
+      "shape": [
+        768
+      ]
+    },
+    {
+      "source": "layers.11.attn.qkv.weight",
+      "target": "blocks.11.attn.qkv.weight",
+      "shape": [
+        2304,
+        768
+      ]
+    },
+    {
+      "source": "layers.11.attn.qkv.bias",
+      "target": "blocks.11.attn.qkv.bias",
+      "shape": [
+        2304
+      ]
+    },
+    {
+      "source": "layers.11.attn.proj.weight",
+      "target": "blocks.11.attn.proj.weight",
+      "shape": [
+        768,
+        768
+      ]
+    },
+    {
+      "source": "layers.11.attn.proj.bias",
+      "target": "blocks.11.attn.proj.bias",
+      "shape": [
+        768
+      ]
+    },
+    {
+      "source": "layers.11.ln2.weight",
+      "target": "blocks.11.norm2.weight",
+      "shape": [
+        768
+      ]
+    },
+    {
+      "source": "layers.11.ln2.bias",
+      "target": "blocks.11.norm2.bias",
+      "shape": [
+        768
+      ]
+    },
+    {
+      "source": "layers.11.ffn.layers.0.0.weight",
+      "target": "blocks.11.mlp.fc1.weight",
+      "shape": [
+        3072,
+        768
+      ]
+    },
+    {
+      "source": "layers.11.ffn.layers.0.0.bias",
+      "target": "blocks.11.mlp.fc1.bias",
+      "shape": [
+        3072
+      ]
+    },
+    {
+      "source": "layers.11.ffn.layers.1.weight",
+      "target": "blocks.11.mlp.fc2.weight",
+      "shape": [
+        768,
+        3072
+      ]
+    },
+    {
+      "source": "layers.11.ffn.layers.1.bias",
+      "target": "blocks.11.mlp.fc2.bias",
+      "shape": [
+        768
+      ]
+    },
+    {
+      "source": "norm.weight",
+      "target": "norm.weight",
+      "shape": [
+        768
+      ]
+    },
+    {
+      "source": "norm.bias",
+      "target": "norm.bias",
+      "shape": [
+        768
+      ]
+    }
+  ],
+  "source_sha256": "c65e27e66fc8797150191ddfa58c702f1d67b34afa5ba31f5d6f81ab6f94882b",
+  "output_checkpoint": "D:\\CODE\\Doing\\WHU_base\\WM\\WHU\\pretrained\\M-SpecGene_VIT-B_UAD_256x128.pth"
+}

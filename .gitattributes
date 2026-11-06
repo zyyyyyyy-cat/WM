@@ -1,0 +1,5 @@
+M-SpecGene_VIT-B_det_transform.pth filter=lfs diff=lfs merge=lfs -text
+M-SpecGene_VIT-B_seg_transform.pth filter=lfs diff=lfs merge=lfs -text
+M-SpecGene-main/M-SpecGene_VIT-B_det_transform.pth filter=lfs diff=lfs merge=lfs -text
+WHU/pretrained/M-SpecGene_VIT-B_UAD_256x128.pth filter=lfs diff=lfs merge=lfs -text
+M-SpecGene_VIT-B.pth filter=lfs diff=lfs merge=lfs -text
